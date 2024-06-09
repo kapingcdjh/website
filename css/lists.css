@@ -1,0 +1,32 @@
+body{
+	background-color: lightcoral;
+}
+p{
+	font-size: 50px;
+	font-family: "Rubik Maps", system-ui;
+    text-align: center;
+    color: mediumaquamarine;
+    background-color: yellow;
+}
+ul,ol,dl{
+	font-size: 24px;
+	color: navajowhite;
+}
+.li li::marker{
+	color: greenyellow;
+	font-size: 1.1em;
+}
+.l2 li{
+	padding-left: 10px;
+}
+ol{
+	margin-left: 50px;
+}
+@counter-style circled-digits {
+  system: fixed;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;
+  suffix: " ";
+}
+.l3{
+	list-style: emoji;
+}
